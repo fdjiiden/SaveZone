@@ -18,7 +18,7 @@ body{background-color: #F5D0C5;}
     align-items: center;
     font-weight: 900;
 }
-.link {
+.link, .linkgl{
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
     font-size: 40px;
@@ -26,7 +26,7 @@ body{background-color: #F5D0C5;}
     justify-content: center; 
     align-items: center;    
     padding: 7px;
-    margin: 10px;
+    margin: 5px;
     margin-left: 200px; 
     margin-right: 200px; 
     text-decoration: none;
@@ -41,7 +41,12 @@ body{background-color: #F5D0C5;}
     background-size: cover;
     background-position: center;
 }
-.link:hover{
+.linkgl{
+    width: 800px;
+    margin: 10px auto; 
+
+}
+.link:hover, .linkgl:hover{
     background-color: #774936;
     color: black;
     border: 3px solid #BF8A6C;
